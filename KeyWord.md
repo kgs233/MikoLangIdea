@@ -25,12 +25,12 @@ enum
 enum(T)  
 
 ## 声明符
-define //声明关键字
+define //声明关键字  
 var //量声明，赋值时转义量  
 const //静态量，创建时赋值，且不可修改  
 funtion //声明函数  
 
 ### 其它
-这些是可能能在库中实现的
-pionter
-ref
+这些是可能能在库中实现的  
+pionter  
+ref  

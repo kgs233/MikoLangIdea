@@ -1,0 +1,27 @@
+public define
+{
+    for $(var Start : Int32) to $(var End : Int33)
+}
+{
+    for (i : Int32 = Start; i < End; i++)
+}
+
+#{for 0 to 100}
+{
+    stdio.out(i);
+}
+
+public define
+{
+    $(var Start : Int32) to $(var End : Int33)
+}
+function : Int32[] {
+    var Ret : Int32[End - Start];
+    for(i : Int32 = Start; i < End; i++)
+    {
+         Ret[i] = i;
+    }
+    return Ret;
+}
+
+const A = #{0 to 100};

@@ -1,5 +1,17 @@
 # Miko Language Idea
-Miko 是一个正在构思中的编程语言，其名称取自日语“巫女（みこ）”如同汉字字面意思是巫女的意思，至于起这个名字原因是应为个人十分喜欢巫女属性（
+Miko 是一个正在构思中的编程语言，其名称取自日语“巫女（みこ）”如同汉字字面意思是巫女的意思，至于起这个名字原因是应为个人十分喜欢巫女属性（  
+一个Hello World的设计感受下语法。
+```
+open Std.Type;
+open Std.System.IO;
+
+function main(args : string[]) : Int32
+{
+    StdIO.Stdout("Hello World!");
+    return 0;
+}
+```
+
 # 这个语言的总目标
 一门可控的，现代化的，语法优美且语义统一的编程语言。
 

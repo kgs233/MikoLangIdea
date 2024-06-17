@@ -71,10 +71,11 @@ function A(var Parm1 : Int32, var Parm2 : Int32)
 var B : A(var Parm1 : Int32, var Parm2 : Int32);
 B[0] = 1;
 B[1] = 2;
-B;
+B();
 
 //or
 
 (1, 2) => B;
-B;
+B();
+//将函数作为量的类型
 ```

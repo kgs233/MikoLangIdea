@@ -68,14 +68,16 @@ function A(var Parm1 : Int32, var Parm2 : Int32)
   ...
 }
 
-var B : A(var Parm1 : Int32, var Parm2 : Int32);
-B[0] = 1;
-B[1] = 2;
-B();
+var B : function(var Parm1 : Int32, var Parm2 : Int32);
+B(1,2);
+
+//have return
+var C : function() : Int32;
 
 //or
 
 (1, 2) => B;
 B();
+
 //将函数作为量的类型
 ```

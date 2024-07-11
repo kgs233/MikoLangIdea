@@ -5,7 +5,7 @@ Miko 是一个正在构思中的编程语言，其名称取自日语“巫女（
 open Std.Type;
 open Std.System.IO;
 
-function main(args : string[]) : Int32
+func main : Int32(Args : String[])
 {
     StdIO.Stdout("Hello World!");
     return 0;
